@@ -1,0 +1,3 @@
+app.get('/api/users/currentuser', (req, res) => {
+    res.send('hi There !')
+})
