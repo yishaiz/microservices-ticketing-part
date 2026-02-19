@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: auth
-          # image: rallycoding/auth
-          image: yishaiz/ticketing-auth-2026
+          image: rallycoding/auth
+          # image: yishaiz/ticketing-auth-2026
 ---
 apiVersion: v1
 kind: Service
